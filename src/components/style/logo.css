@@ -1,0 +1,93 @@
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    /* background-color: rgb(24, 24, 24); */
+    /* background-image: url(../../../public/images/star.png);
+    border-bottom: 0.3em double rgb(255, 255, 255); */
+}
+
+.logoImg {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.logo h2 {
+    font-size: 16vw;
+    line-break: loose;
+    letter-spacing: 0.8rem;
+    font-weight: 100;
+    line-height: 0.8em;
+    font-family: "cuicui", sans-serif;
+    color: rgb(233, 233, 233);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+
+
+
+
+/* Responsive */
+
+@media (width < 1650px) {
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .logoImg {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+
+    .logo h2 {
+        font-size: 13vw;
+        line-break: loose;
+        letter-spacing: 0.6rem;
+        font-weight: 100;
+        line-height: 0.8em;
+    }
+
+}
+
+@media (width < 900px) {
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .logoImg {
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    .logo h2 {
+        font-size: 18vw;
+        text-align: center;
+        line-break: loose;
+    }
+
+}
+
+@media (width < 700px) {
+
+    .logoImg {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .logo h2 {
+        letter-spacing: 0.4rem;
+
+    }
+
+
+}

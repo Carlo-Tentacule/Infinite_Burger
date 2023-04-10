@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "cuicui";
+    src: url("../fonts/KunzeDemoRegular-Ea7Ge.otf");
+}
+
+@font-face {
+    font-family: "pioupiou";
+    src: url("../fonts/SteinwaldDemoRegular-MV49r.otf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
